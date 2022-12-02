@@ -39,7 +39,8 @@ body {
   background: var(--color-bg);
   color:var(--color-white);
   line-height:1.7;
-  /* background-image: url(../src/assets/26669.jpg); */
+  background-image: url(../src/assets/white-waves-modified3.png);
+
 }
 
 /*=====================GENERAL STYLES========================*/
