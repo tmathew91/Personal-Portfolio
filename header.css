@@ -1,3 +1,4 @@
+
 header {
     height: 100vh;
     padding-top:7rem;
@@ -5,10 +6,11 @@ header {
     
 }
 
-.header_container {
+.header__container {
     text-align:center;
-    height: 100;
+    height: 100%;
     position:relative;
+    
     
 }
 
@@ -43,17 +45,25 @@ header {
 /*======================ME====================*/
 .me {
     background:linear-gradient(var(--color-primary), transparent);
-    width:22rem;
+    width:20rem;
     height:30rem;
     position:absolute;
-    left:calc(50%-11rem);
+    left: 50%;
+    transform: translateX(-50%);
     margin-top:4rem;
     border-radius:12rem 12rem 0 0;
     overflow: hidden;
-    padding:5rem 1.5rem 1.5rem 1.5rem;
+    padding:-2rem 1.5rem 1.5rem 5rem;
+   
     
 }       
 
+.me img {
+    width: 100%;
+    height: auto;
+    padding-top: 2.5rem;
+    padding-left: .5rem;
+}
 /*======================ME====================*/
 
 .scroll__down{
@@ -62,7 +72,7 @@ header {
     bottom:5rem;
     transform:rotate(90deg);
     font-weight:300;
-    font: size 0.9rem;
+    font-size: 0.9rem;
 }
 
 /*=========================MEDIA QUERIES (Medium DEVICES)===================*/
